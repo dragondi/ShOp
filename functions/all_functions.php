@@ -1,0 +1,14 @@
+<?
+include_once('work_functions.php');
+include_once('user_functions.php');
+include_once('articles_functions.php');
+include_once('sliders_functions.php');
+include_once('goods_functions.php');
+include_once('categories_functions.php');
+include_once('writers_functions.php');
+include_once('texts_functions.php');
+include_once('cart_functions.php');
+include_once('orders_functions.php');
+include_once('feedback_messages_functions.php');
+include_once('comments_functions.php');
+?>

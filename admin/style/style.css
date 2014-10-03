@@ -1,0 +1,220 @@
+html 
+{
+  height:100%;
+  * background: fixed url('about:blank');
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  min-width: 990px;
+  font-family: Verdana, Tahoma, Arial;
+  font-size: 13px;
+  background-color: #FFFFFF;
+  color: #7c7c7c;
+}
+
+
+a
+{
+  margin: 0;
+  padding: 0;
+  color: #989898;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #000000;
+}
+a:focus
+{
+  outline: none;
+}
+a img
+{
+  border: none;
+}
+
+span 
+{
+    color: #B6B6B6;
+    font-size: 85%;
+}
+/*********************************************************/
+#button
+{
+	color: rgb(80,80,80);
+	border: 1px solid gray;
+	background-color: rgba(200,200,200, 0.3);
+}
+#button:hover
+{
+	color: orange;
+	background-color: rgb(255,255,255);
+	border: 1px solid orange;
+}
+#button:focus
+{
+	color: orange;
+	background-color: rgb(255,255,255);
+	border: 1px solid orange;
+}
+
+.mini_button
+{
+	width: 122px;
+	height: 22px;
+	font-size: 10px;
+}
+.normal_button
+{
+	width: 250px;
+	height: 24px;
+	font-size: 14px;
+}
+
+/*********************************************************/
+.modal-body
+{
+    color: red;
+}
+
+#deleting_form_cancel_button
+{
+    color: rgb(80,80,80);
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgba(230,230,230, 0.3);
+
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+}
+#deleting_form_cancel_button:hover
+{
+    color: orange;
+    background-color: rgb(255,255,255);
+    border: 1px solid orange;
+}
+#deleting_form_cancel_button:focus
+{
+    color: orange;
+    background-color: rgb(255,255,255);
+    border: 1px solid orange;
+}
+
+#deleting_form_accept_button
+{
+    color: red;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgba(230,230,230, 0.3);
+
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+}
+#deleting_form_accept_button:hover
+{
+    color: red;
+    box-shadow: 0 0 10px #f00;
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid red;
+}
+#deleting_form_accept_button:focus
+{
+    color: red;
+    box-shadow: 0 0 10px #f00;
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid red;
+}
+/*********************************************************/
+#mini_br
+{
+	font-size: 5px !important;
+}
+/*********************************************************/
+input[type="text"]
+{
+    margin-top: 4px;
+}
+
+#text_input
+{
+	width: 90%;
+	height: 24px;
+	
+	padding: 0px 5px;
+	border: 1px solid rgb(150,150,150);
+}
+#text_input:hover
+{
+	border-color: orange;
+}
+#text_input:focus
+{
+	border-color: orange;
+}
+
+#mini_text_input
+{
+	width: 150px;
+	height: 24px;
+	
+	padding: 0px 5px;
+	border: 1px solid rgb(150,150,150);
+}
+#mini_text_input:hover
+{
+	border-color: orange;
+}
+#mini_text_input:focus
+{
+	border-color: orange;
+}
+/*********************************************************/
+textarea
+{
+    margin-top: 4px;
+}
+
+#textarea_input
+{
+	width: 90%;
+	resize: none;
+	
+	padding: 2px 5px;
+	border: 1px solid rgb(150,150,150);
+}
+#textarea_input:hover
+{
+	border-color: orange;
+}
+#textarea_input:focus
+{
+	border-color: orange;
+}
+
+.mini_textarea
+{
+	height: 60px;
+}
+.normal_textarea
+{
+	height: 200px;
+}
+/*********************************************************/
+input[type="checkbox"]
+{
+    margin: 4px 0px 0px;
+    border: 1px solid rgb(150,150,150);
+}
+input[type="checkbox"]:hover
+{
+    border-color: orange;
+}
+input[type="checkbox"]:focus
+{
+    border-color: orange;
+}
+/*********************************************************/
